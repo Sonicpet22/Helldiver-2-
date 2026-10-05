@@ -1,0 +1,2536 @@
+{
+  "game": "Helldivers 2",
+  "retrieved": "2026-10-05",
+  "source": "https://helldivers.wiki.gg/wiki/Enemies",
+  "cargo_table": "Enemies",
+  "note": "ค่าพลังชีวิตและดาเมจเปลี่ยนตามแพตช์ ตัวเลขนี้เป็นค่าจาก Helldivers Wiki ณ วันที่ดึงข้อมูล",
+  "size_classes": {
+    "0": {
+      "en": "Small",
+      "th": "เล็ก"
+    },
+    "1": {
+      "en": "Medium",
+      "th": "กลาง"
+    },
+    "2": {
+      "en": "Large",
+      "th": "ใหญ่"
+    },
+    "3": {
+      "en": "Massive",
+      "th": "มหึมา"
+    },
+    "4": {
+      "en": "Superheavy",
+      "th": "หนักพิเศษ"
+    }
+  },
+  "count": 87,
+  "enemies": [
+    {
+      "name": "Scavenger",
+      "wiki": "https://helldivers.wiki.gg/wiki/Scavenger",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "60",
+      "damage": [
+        "40 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "The lowliest of Terminids, slow and weak, but capable of attracting nearby bug breaches.",
+      "display_order": 1.0
+    },
+    {
+      "name": "Bile Spitter",
+      "wiki": "https://helldivers.wiki.gg/wiki/Bile_Spitter",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "60",
+      "damage": [
+        "15 Bile Spit + 3/s Acid Burn (4s)",
+        "85 Death Explosion + 3/s Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Acid"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "One of the smallest Terminids, but still deadly with its ranged acid spit.",
+      "display_order": 2.0
+    },
+    {
+      "name": "Pouncer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Pouncer",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "60",
+      "damage": [
+        "40 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Agile Terminids that are able to leap great distances to attack Helldivers.",
+      "display_order": 3.0
+    },
+    {
+      "name": "Hunter",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hunter",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "130 - Medium & Below; 160 - Challenging & Above",
+      "damage": [
+        "35 Slash",
+        "35 Pounce",
+        "30 Tongue / 3/s Tongue, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Stealthy Terminids engaging in ambush tactics, able to leap great distances and slow Helldivers with their tongue.",
+      "display_order": 4.0
+    },
+    {
+      "name": "Shrieker",
+      "wiki": "https://helldivers.wiki.gg/wiki/Shrieker",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": null,
+      "damage": [
+        "50 Dive",
+        "40 Ragdoll"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Flying Terminids specialized in hit-and-run tactics.",
+      "display_order": 5.0
+    },
+    {
+      "name": "Warrior",
+      "wiki": "https://helldivers.wiki.gg/wiki/Warrior",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "250 - Medium & Below; 325 - Challenging & Above",
+      "damage": [
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Medium sized Terminid adept in close-quarters combat.",
+      "display_order": 6.0
+    },
+    {
+      "name": "Bile Warrior",
+      "wiki": "https://helldivers.wiki.gg/wiki/Bile_Warrior",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "325",
+      "damage": [
+        "55 Slash",
+        "85 Death Explosion + 3/s Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Warrior that explodes upon death.",
+      "display_order": 6.1
+    },
+    {
+      "name": "Alpha Warrior",
+      "wiki": "https://helldivers.wiki.gg/wiki/Alpha_Warrior",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "325",
+      "damage": [
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Impossible",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A faster and deadlier variant of the Warrior. Spawned by Alpha Commanders.",
+      "display_order": 6.2
+    },
+    {
+      "name": "Hive Guard",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hive_Guard",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "500",
+      "damage": [
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A variant of the Warrior with medium armor covering its head and legs.",
+      "display_order": 7.0
+    },
+    {
+      "name": "Nursing Spewer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Nursing_Spewer",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "50/s Putrid Regurgitation + 3/s Acid Burn (4s)",
+        "300 Death Rupture + 3/s Acid Burn (4s)",
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Acid",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A sluggish, medium armored Terminid that can spew corrosive bile over a wide area.",
+      "display_order": 8.0
+    },
+    {
+      "name": "Bile Spewer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Bile_Spewer",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "55 Slash",
+        "50 Bile Regurgitation + 3/s Acid Burn (4s)",
+        "500 Bile Bombard Direct + 200 Area of Effect",
+        "300 Death + 3/s Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Ballistic",
+        "Acid",
+        "Explosion"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "An armored variant of the Nursing Spewer capable of launching Bile mortars.",
+      "display_order": 9.0
+    },
+    {
+      "name": "Brood Commander",
+      "wiki": "https://helldivers.wiki.gg/wiki/Brood_Commander",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "800",
+      "damage": [
+        "70 Bull Rush",
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Leadership-class Terminid capable of coordinating attacks and deploying reinforcements.",
+      "display_order": 10.0
+    },
+    {
+      "name": "Alpha Commander",
+      "wiki": "https://helldivers.wiki.gg/wiki/Alpha_Commander",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,000",
+      "damage": [
+        "70 Primal Rush",
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Impossible",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A heavier variant of the Brood Commander, capable of calling in Alpha Warriors.",
+      "display_order": 10.1
+    },
+    {
+      "name": "Stalker",
+      "wiki": "https://helldivers.wiki.gg/wiki/Stalker",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "800",
+      "damage": [
+        "35 Barbed Tongue",
+        "50 Impaling Strike"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A specialized Terminid capable of turning partially invisible and ambushing Helldivers. Spawns from Stalker Lairs.",
+      "display_order": 11.0
+    },
+    {
+      "name": "Charger",
+      "wiki": "https://helldivers.wiki.gg/wiki/Charger",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "2,400",
+      "damage": [
+        "350 Stomp",
+        "90 Trample",
+        "30 End Charge"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Fast-moving Terminid specialized in charging attacks. Covered head to claw in heavy armor.",
+      "display_order": 12.0
+    },
+    {
+      "name": "Spore Charger",
+      "wiki": "https://helldivers.wiki.gg/wiki/Spore_Charger",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "2,400",
+      "damage": [
+        "350 Stomp",
+        "90 Trample",
+        "30 End Charge",
+        "300 Death Explosion + 3/s Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid"
+      ],
+      "min_difficulty": "Suicide Mission",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A Charger variant that creates a thick fog and a massive explosion on death.",
+      "display_order": 12.1
+    },
+    {
+      "name": "Charger Behemoth",
+      "wiki": "https://helldivers.wiki.gg/wiki/Charger_Behemoth",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "3,000",
+      "damage": [
+        "350 Stomp",
+        "90 Trample",
+        "30 End Charge"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A Charger variant with even more durable armor.",
+      "display_order": 12.2
+    },
+    {
+      "name": "Impaler",
+      "wiki": "https://helldivers.wiki.gg/wiki/Impaler",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "4,000",
+      "damage": [
+        "350 Stomp",
+        "35 Tentacle Impact",
+        "150 Tentacle Impact"
+      ],
+      "damage_types": [
+        "Melee",
+        "Explosion"
+      ],
+      "min_difficulty": "Hard",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Heavily armored Terminid that uses large, bladed tentacles to disrupt Helldiver movements.",
+      "display_order": 13.0
+    },
+    {
+      "name": "Bile Titan",
+      "wiki": "https://helldivers.wiki.gg/wiki/Bile_Titan",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "6,500",
+      "damage": [
+        "60 Bile Spew + 3/s Acid Burn (4s) + 85 Area of Effect + 3/s Acid Burn (4s)",
+        "1000 Stomp + 0 Area of Effect"
+      ],
+      "damage_types": [
+        "Acid",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Massive Terminid with a potent bile attack, stomp attacks, and heavy armor.",
+      "display_order": 14.0
+    },
+    {
+      "name": "Dragonroach",
+      "wiki": "https://helldivers.wiki.gg/wiki/Dragonroach",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "6,500",
+      "damage": [
+        "Fire Breath + 100 Burn DPS",
+        "X Area of Effect Burn / X/s Area of Effect Fire"
+      ],
+      "damage_types": [
+        "Fire"
+      ],
+      "min_difficulty": "Hard",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Massive flying Terminid with a potent fire breath attack and heavy armor.",
+      "display_order": 15.0
+    },
+    {
+      "name": "Hive Lord",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hive_Lord",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Terminids",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "150,000",
+      "damage": [
+        "25 Burrow",
+        "50 Surfacing + 20 Area of Effect",
+        "100 Body Slam",
+        "80 Bile Rain + 50 Area of Effect",
+        "100 Rock Impact + 50 Area of Effect"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid",
+        "Explosion"
+      ],
+      "min_difficulty": "Suicide Mission",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Gigantic Terminid capable of traversing underground, expelling bile and crushing targets with its body weight.",
+      "display_order": 16.0
+    },
+    {
+      "name": "Predator Hunter",
+      "wiki": "https://helldivers.wiki.gg/wiki/Predator_Hunter",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Predator Strain",
+      "subfaction_th": "สายพันธุ์ Predator",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "175",
+      "damage": [
+        "35 Slash",
+        "35 Pounce",
+        "30 Tongue / 3/s Tongue, Acid Burn (4s)",
+        "50 Reflux / 3/s Spit, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Hunter that is significantly more aggressive, capable of cloaking, and can spew bile.",
+      "display_order": 4.1
+    },
+    {
+      "name": "Predator Stalker",
+      "wiki": "https://helldivers.wiki.gg/wiki/Predator_Stalker",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Predator Strain",
+      "subfaction_th": "สายพันธุ์ Predator",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "650",
+      "damage": [
+        "55 Slash"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated, more aggressive variant of the Stalker that is unable to cloak but spawns as a regular part of patrols.",
+      "display_order": 11.1
+    },
+    {
+      "name": "Spore Burst Scavenger",
+      "wiki": "https://helldivers.wiki.gg/wiki/Spore_Burst_Scavenger",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Spore Burst Strain",
+      "subfaction_th": "สายพันธุ์ Spore Burst",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "60",
+      "damage": [
+        "40 Slash",
+        "25 Death 3/s Death, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid",
+        "Explosion"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Scavenger that explodes into a deadly spore cloud upon death.",
+      "display_order": 1.1
+    },
+    {
+      "name": "Spore Burst Hunter",
+      "wiki": "https://helldivers.wiki.gg/wiki/Spore_Burst_Hunter",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Spore Burst Strain",
+      "subfaction_th": "สายพันธุ์ Spore Burst",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "160",
+      "damage": [
+        "35 Slash",
+        "35 Pounce",
+        "30 Tongue / 3/s Tongue, Acid Burn (4s)",
+        "35 Mycotic Death / 3/s Death, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid",
+        "Explosion"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Hunter that explodes into a deadly spore cloud upon death.",
+      "display_order": 4.2
+    },
+    {
+      "name": "Spore Burst Warrior",
+      "wiki": "https://helldivers.wiki.gg/wiki/Spore_Burst_Warrior",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Spore Burst Strain",
+      "subfaction_th": "สายพันธุ์ Spore Burst",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "325",
+      "damage": [
+        "55 Slash",
+        "50 Mycotic Death / 3/s Death, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Melee",
+        "Acid"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Warrior that explodes into a deadly spore cloud upon death.",
+      "display_order": 6.3
+    },
+    {
+      "name": "Spore Burst Bile Titan",
+      "wiki": "https://helldivers.wiki.gg/wiki/Spore_Burst_Bile_Titan",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Spore Burst Strain",
+      "subfaction_th": "สายพันธุ์ Spore Burst",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "7,000",
+      "damage": [
+        "35 Mycotic Surge + 15 Area of Effect",
+        "1000 Stomp + 0 Area of Effect",
+        "75 Death Throes + 3/s Death, Acid Burn (4s)"
+      ],
+      "damage_types": [
+        "Acid",
+        "Melee",
+        "Explosion"
+      ],
+      "min_difficulty": "Hard",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A mutated variant of the Bile Titan with a potent bile spew capable of buffing nearby enemies.",
+      "display_order": 14.1
+    },
+    {
+      "name": "Rupture Warrior",
+      "wiki": "https://helldivers.wiki.gg/wiki/Rupture_Warrior",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Rupture Strain",
+      "subfaction_th": "สายพันธุ์ Rupture",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "250",
+      "damage": [
+        "55 Slash/Unburrow"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Extreme",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A burrowing variant of the Warrior.",
+      "display_order": 6.4
+    },
+    {
+      "name": "Rupture Spewer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Rupture_Spewer",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Rupture Strain",
+      "subfaction_th": "สายพันธุ์ Rupture",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "35 Bile Globules + 50+100/s Bile Spew + 3/s Acid Burn (4s)",
+        "800 Bile Bomb / 200 Area of Effect",
+        "300 Death Explosion + 3/s Acid Burn (4s) + 55 Slash"
+      ],
+      "damage_types": [
+        "Acid",
+        "Melee",
+        "Ballistic"
+      ],
+      "min_difficulty": "Extreme",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A burrowing variant of the Bile Spewer.",
+      "display_order": 9.1
+    },
+    {
+      "name": "Rupture Charger",
+      "wiki": "https://helldivers.wiki.gg/wiki/Rupture_Charger",
+      "faction": "Terminids",
+      "faction_th": "เทอร์มินิด (แมลง)",
+      "subfaction": "Rupture Strain",
+      "subfaction_th": "สายพันธุ์ Rupture",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "2,400",
+      "damage": [
+        "350 Emerging Explosion",
+        "350 Stomp",
+        "90 Trample",
+        "30 End Charge"
+      ],
+      "damage_types": [
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Extreme",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A burrowing variant of the Charger.",
+      "display_order": 12.3
+    },
+    {
+      "name": "Trooper",
+      "wiki": "https://helldivers.wiki.gg/wiki/Trooper",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion SMG",
+        "200 Grenade",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton unit armed with a fusion SMG and explosive grenades.",
+      "display_order": 1.0
+    },
+    {
+      "name": "Brawler",
+      "wiki": "https://helldivers.wiki.gg/wiki/Brawler",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "60 Heat Blade Slash",
+        "200 Grenade"
+      ],
+      "damage_types": [
+        "Melee",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton unit armed with twin heated blades that specializes in close-quarters combat.",
+      "display_order": 1.1
+    },
+    {
+      "name": "Commissar",
+      "wiki": "https://helldivers.wiki.gg/wiki/Commissar",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion Pistol",
+        "200 Grenade",
+        "60 Heat Blade Slash"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton squad leader armed with a sidearm and heat blade for versatile offensive options.",
+      "display_order": 1.2
+    },
+    {
+      "name": "Rocket Raider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Rocket_Raider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "70 Rocket Blast",
+        "200 Grenade",
+        "30 Rocket Impact",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Explosion",
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton unit armed with a rocket launcher.",
+      "display_order": 1.3
+    },
+    {
+      "name": "Assault Raider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Assault_Raider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion Pistol",
+        "200 Grenade",
+        "130 Jetpack Explosion / 100/s (3s) Jetpack Explosion",
+        "60 Heat Blade Slash"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton unit armed with a fusion pistol, a blade, and a jetpack.",
+      "display_order": 1.5
+    },
+    {
+      "name": "Marauder",
+      "wiki": "https://helldivers.wiki.gg/wiki/Marauder",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion SMG",
+        "200 Grenade",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Hard",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Reinforced Automaton unit armed with a fusion rifle and explosive grenades.",
+      "display_order": 2.0
+    },
+    {
+      "name": "MG Raider",
+      "wiki": "https://helldivers.wiki.gg/wiki/MG_Raider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Light Fusion Repeater",
+        "200 Grenade",
+        "130 Backpack / 100/s (3s) Backpack",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Reinforced Automaton unit armed with a fusion machine gun, explosive grenades, and a volatile backpack with a tendency to explode.",
+      "display_order": 2.1
+    },
+    {
+      "name": "Berserker",
+      "wiki": "https://helldivers.wiki.gg/wiki/Berserker",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "80 Meatsaw Slash",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Durable Automaton unit armed with dual chainsaws that specialize in close-quarters combat.",
+      "display_order": 3.0
+    },
+    {
+      "name": "Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "35 Fusion Assault Cannon",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Medium-armored Automaton unit armed with fusion assault cannons.",
+      "display_order": 4.0
+    },
+    {
+      "name": "Rocket Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Rocket_Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "35 Fusion Arm Cannon",
+        "70 Rocket Blast / 30 Rocket Impact",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Devastator variant armed with fusion arm cannons and shoulder-mounted rocket launchers, capable of hitting Helldivers behind cover.",
+      "display_order": 4.1
+    },
+    {
+      "name": "Heavy Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Heavy_Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "35 Fusion Repeater",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Devastator variant armed with a fusion machine gun and a large shield, capable of suppressing Helldivers and blocking incoming fire.",
+      "display_order": 4.2
+    },
+    {
+      "name": "Scout Strider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Scout_Strider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "500",
+      "damage": [
+        "60 Fusion Heavy Repeater",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Armored Automaton recon walker, armed with a heavy fusion repeater and manned by a single Trooper shielded from small arms fire from the front.",
+      "display_order": 5.0
+    },
+    {
+      "name": "Reinforced Scout Strider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Reinforced_Scout_Strider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "500",
+      "damage": [
+        "60 Heavy Fusion Repeater",
+        "400 Rocket Blast / 30 Rocket Impact",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Impossible",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A reinforced variant of the Scout Strider armed with rockets and armor surrounding the entire pilot.",
+      "display_order": 5.1
+    },
+    {
+      "name": "Hulk Obliterator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hulk_Obliterator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "70 Rocket Blast / 30 Rocket Impact",
+        "200 Weapon Swing",
+        "200 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Explosion",
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Large, heavily armored Automaton unit armed with dual rocket launchers.",
+      "display_order": 6.0
+    },
+    {
+      "name": "Hulk Scorcher",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hulk_Scorcher",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "60 DPS Heavy Flamethrower / 100 Burn DPS",
+        "100 Reactor Meltdown Explosion",
+        "200 Rotary Saw",
+        "200 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Fire",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Hulk variant armed with a heavy flamethrower and large sawblade, specializing in close-quarters combat.",
+      "display_order": 6.1
+    },
+    {
+      "name": "Hulk Bruiser",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hulk_Bruiser",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "60 Fusion Autocannon / 30 Rocket Impact + 70 Rocket Splash",
+        "150 Vent Explosion",
+        "100 Death Explosion",
+        "65 Rocket Arm Swing",
+        "200 Cannon Arm Swing",
+        "200 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Hulk variant equipped with a burst rocket launcher and fusion autocannon.",
+      "display_order": 6.2
+    },
+    {
+      "name": "War Strider",
+      "wiki": "https://helldivers.wiki.gg/wiki/War_Strider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "3,500",
+      "damage": [
+        "80 Fusion Culverin Impact / 65 Fusion Culverin Blast",
+        "200 Grenade Explosion",
+        "350 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Extreme",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Heavily armored Automaton walker unit armed with Heavy Fusion Repeaters and explosive grenade launchers.",
+      "display_order": 7.0
+    },
+    {
+      "name": "Annihilator Tank",
+      "wiki": "https://helldivers.wiki.gg/wiki/Annihilator_Tank",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "4,000 (Hull Main); 2,100 (Turret Main)",
+      "damage": [
+        "35 Coaxial Fusion Cycler",
+        "60 Hull Heavy Fusion Repeater",
+        "1500 Fusion Battle Cannon Impact / 100 Fusion Cannon Blast",
+        "100 Turret Explosion",
+        "1 Death Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Tank-armored Automaton unit armed with fusion machine guns and a large cannon.",
+      "display_order": 8.0
+    },
+    {
+      "name": "Shredder Tank",
+      "wiki": "https://helldivers.wiki.gg/wiki/Shredder_Tank",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "4,000 (Main); 2,100 (Turret)",
+      "damage": [
+        "60 Quad Heavy Fusion Cyclers",
+        "1 Death Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Tank variant armed with a quad-linked heavy fusion cycler turret.",
+      "display_order": 8.1
+    },
+    {
+      "name": "Barrager Tank",
+      "wiki": "https://helldivers.wiki.gg/wiki/Barrager_Tank",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "4,000 (Main); 2,100 (Turret)",
+      "damage": [
+        "30 Ballistic Rocket Impact / 400 Ballistic Rocket Blast",
+        "100 Turret Death",
+        "1 Death Explosion"
+      ],
+      "damage_types": [
+        "Explosion"
+      ],
+      "min_difficulty": "Suicide Mission",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Tank variant armed with a large missile array capable of direct & mortar fire.",
+      "display_order": 8.2
+    },
+    {
+      "name": "Gunship",
+      "wiki": "https://helldivers.wiki.gg/wiki/Gunship",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "950",
+      "damage": [
+        "65 Heavy Fusion Cycler",
+        "70 Rocket Blast / 30 Rocket Impact",
+        "100 Death Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Hard",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Medium-armored flying Automaton unit armed with fusion machine guns and rockets.",
+      "display_order": 9.0
+    },
+    {
+      "name": "Dropship",
+      "wiki": "https://helldivers.wiki.gg/wiki/Dropship",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "3,500",
+      "damage": [],
+      "damage_types": [],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Unarmed Automaton ship that drops in fellow Automaton units in response to a Bot Drop flare.",
+      "display_order": 10.0
+    },
+    {
+      "name": "Factory Strider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Factory_Strider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Automatons",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "10,000",
+      "damage": [
+        "35 Fusion Gatling Guns",
+        "1500 Repeater Cannon Impact / 100 Repeater Cannon Blast",
+        "300 Death"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Massive Automaton quad-walker, armed with twin fusion gatling guns and a large burst-cannon. Capable of creating and deploying squads of Devastators.",
+      "display_order": 11.0
+    },
+    {
+      "name": "Jet Brigade Commissar",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Commissar",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion Pistol",
+        "200 Grenade",
+        "130 Jetpack Explosion / 100/s (3s) Jetpack Explosion",
+        "60 Heat Blade Slash"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Commissar variant equipped with a jetpack for leaping large distances.",
+      "display_order": 1.7
+    },
+    {
+      "name": "Jet Brigade Trooper",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Trooper",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Fusion SMG",
+        "200 Grenade",
+        "130 Jetpack Explosion / 100/s (3s) Jetpack Explosion",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Trooper variant equipped with a jetpack for leaping large distances.",
+      "display_order": 1.8
+    },
+    {
+      "name": "Jet Brigade MG Raider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_MG_Raider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "35 Light Fusion Repeater",
+        "200 Grenade",
+        "130 Jetpack Explosion / 100/s (3s) Jetpack Explosion",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Easy",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "MG Raider variant equipped with a jetpack for leaping large distances.",
+      "display_order": 2.2
+    },
+    {
+      "name": "Jet Brigade Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "35 Fusion Assault Cannon",
+        "130 Jetpack Explosion / 100/s (3s) Jetpack Explosion",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": null,
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Devastator variant equipped with a jetpack for leaping large distances.",
+      "display_order": 4.5
+    },
+    {
+      "name": "Jet Brigade Hulk Scorcher",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Hulk_Scorcher",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "60 DPS Heavy Flamethrower / 100 Burn DPS",
+        "500 Heavy Jump Pack Explosion / 100/s (3s) Jetpack Explosion",
+        "100 Death Explosion",
+        "200 Rotary Saw",
+        "200 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A variant of the Hulk Scorcher equipped with a large jetpack, allowing them to leap great distances.",
+      "display_order": 6.4
+    },
+    {
+      "name": "Jet Brigade Hulk Bruiser",
+      "wiki": "https://helldivers.wiki.gg/wiki/Jet_Brigade_Hulk_Bruiser",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Jet Brigade",
+      "subfaction_th": "Jet Brigade",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "60 Fusion Autocannon",
+        "30 Rocket Impact + 70 Rocket Splash",
+        "500 Heavy Jump Pack Explosion / 100/s (3s) Jetpack Explosion",
+        "100 Death Explosion",
+        "65 Rocket Arm Swing",
+        "200 Cannon Arm Swing",
+        "100 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A variant of the Hulk Bruiser equipped with a large jetpack, allowing them to leap great distances.",
+      "display_order": 6.5
+    },
+    {
+      "name": "Pyro Trooper",
+      "wiki": "https://helldivers.wiki.gg/wiki/Pyro_Trooper",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Incineration Corps",
+      "subfaction_th": "Incineration Corps",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": null,
+      "damage": [
+        "60 DPS Portable Flamer",
+        "400 Fuel Tank Explosion",
+        "300 White Phosphorus Grenade / 100 Burn DPS (3s)",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Fire",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Reinforced Automaton unit equipped with a flamethrower and a backpack-mounted fuel tank.",
+      "display_order": 1.4
+    },
+    {
+      "name": "Incendiary Rocket Raider",
+      "wiki": "https://helldivers.wiki.gg/wiki/Incendiary_Rocket_Raider",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Incineration Corps",
+      "subfaction_th": "Incineration Corps",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [
+        "80 Portable Fusion Cannon Impact / 50 Portable Fusion Cannon Blast",
+        "300 White Phosphorus Grenade / 100 Burn DPS (3s)",
+        "35 Steel Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Light Automaton unit armed with a specialized rocket launcher.",
+      "display_order": 1.6
+    },
+    {
+      "name": "Incendiary MG Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Incendiary_MG_Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Incineration Corps",
+      "subfaction_th": "Incineration Corps",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "30 Fusion Conflagrator / 100 DPS Burn (3s)",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Heavy Devastator variant with a slower-firing incendiary fusion machine gun.",
+      "display_order": 4.3
+    },
+    {
+      "name": "Conflagration Devastator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Conflagration_Devastator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Incineration Corps",
+      "subfaction_th": "Incineration Corps",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "300(12 x 25 pellets) Conflagration Scattergun / 100 Burn DPS (3s)",
+        "80 Reinforced Fist Punch",
+        "100 Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Devastator variant armed with an incendiary fusion shotgun and a large shield, capable of suppressing Helldivers and blocking incoming fire.",
+      "display_order": 4.4
+    },
+    {
+      "name": "Hulk Firebomber",
+      "wiki": "https://helldivers.wiki.gg/wiki/Hulk_Firebomber",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Incineration Corps",
+      "subfaction_th": "Incineration Corps",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "1,800",
+      "damage": [
+        "0 Rotary Phosphorus Launcher Impact / 300 Rotary Phosphorus Launcher Blast",
+        "60 DPS Heavy Flamethrower / 100 Burn DPS (3s) Fire",
+        "150 Vent Explosion",
+        "100 Death Explosion",
+        "200 Flamer Arm Swing",
+        "200 Launcher Arm Swing",
+        "200 Vertical Slam",
+        "100 Heavy Stomp"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Fire",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Hulk variant equipped with a large flamethrower and incendiary grenade launcher.",
+      "display_order": 6.3
+    },
+    {
+      "name": "Radical",
+      "wiki": "https://helldivers.wiki.gg/wiki/Radical",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Cyborg Legion",
+      "subfaction_th": "Cyborg Legion",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "100 (10 x 10 pellets) Plasma Scattergun",
+        "60 Augmented Punch",
+        "50 Techno-Martial Arts"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Cybernetically enhanced human soldiers equipped with a heavy shotgun and \"techno-martial arts.\"",
+      "display_order": 12.0
+    },
+    {
+      "name": "Agitator",
+      "wiki": "https://helldivers.wiki.gg/wiki/Agitator",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Cyborg Legion",
+      "subfaction_th": "Cyborg Legion",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "750",
+      "damage": [
+        "45 Plasma Charger",
+        "65 Plasma Charger Overcharge Impact / 30 Plasma Charger Overcharge Explosion",
+        "200 Grenade",
+        "60 Augmented Punch",
+        "50 Techno-Martial Arts"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Melee",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Cyborg field commanders, able to take direct command of their Automaton underlings.",
+      "display_order": 12.1
+    },
+    {
+      "name": "Vox Engine",
+      "wiki": "https://helldivers.wiki.gg/wiki/Vox_Engine",
+      "faction": "Automatons",
+      "faction_th": "ออโตมาตอน (หุ่นยนต์)",
+      "subfaction": "Cyborg Legion",
+      "subfaction_th": "Cyborg Legion",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "9,000",
+      "damage": [
+        "20 Plasma Duster Miniguns",
+        "80 Plasma Macro-Culverin Impact / 50 Plasma Macro-Culverin Blast",
+        "30 Icarus Missile Launcher Impact / 250 Icarus Missile Launcher Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Suicide Mission",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Massive Cyborg Mech equipped with heavy fusion cannons, a missile array, and gatling guns.",
+      "display_order": 13.0
+    },
+    {
+      "name": "Voteless",
+      "wiki": "https://helldivers.wiki.gg/wiki/Voteless",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "100 (Light); 130 (Medium); 160 (Heavy)",
+      "damage": [
+        "25 Swipe and Claw"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "An Agile skirmisher unit that attacks in hordes.",
+      "display_order": 1.0
+    },
+    {
+      "name": "Watcher",
+      "wiki": "https://helldivers.wiki.gg/wiki/Watcher",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "600",
+      "damage": [
+        "30 Tesla Discharge",
+        "300 Crashing Impact",
+        "80 Death Explosion"
+      ],
+      "damage_types": [
+        "Arc",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Flying drone equipped with arc weaponry and the ability to call for reinforcements.",
+      "display_order": 3.0
+    },
+    {
+      "name": "Overseer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Overseer",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "600",
+      "damage": [
+        "75 Staff Swing",
+        "40 Plasma Projectile",
+        "30 Plasma Burst"
+      ],
+      "damage_types": [
+        "Melee",
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Elite unit equipped with an energy shield and a deadly lance capable of launching an explosive projectile, usually accompanies hordes of Voteless.",
+      "display_order": 5.0
+    },
+    {
+      "name": "Elevated Overseer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Elevated_Overseer",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "450",
+      "damage": [
+        "35 Plasma Storm Rifle",
+        "200 Plasma Detonator",
+        "150 Jetpack Detonation"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Elite unit equipped with automatic plasma rifles and jet-packs, usually accompanies hordes of Voteless.",
+      "display_order": 5.1
+    },
+    {
+      "name": "Crescent Overseer",
+      "wiki": "https://helldivers.wiki.gg/wiki/Crescent_Overseer",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "600",
+      "damage": [
+        "40 Plasma Bolt Impact / 75 Plasma Bolt Blast",
+        "60 Armoured Fist Punch"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Elite unit equipped with a large plasma cannon, capable of direct & mortar fire, usually accompanies hordes of Voteless.",
+      "display_order": 5.2
+    },
+    {
+      "name": "Fleshmob",
+      "wiki": "https://helldivers.wiki.gg/wiki/Fleshmob",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "5,000",
+      "damage": [
+        "50 Flail",
+        "30 Initial Charge Impact"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": 1.8,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "An amalgamation of Voteless corpses, this large Illuminate unit specializes in close-quarters combat and charges at Helldivers to attack.",
+      "display_order": 6.0
+    },
+    {
+      "name": "Harvester",
+      "wiki": "https://helldivers.wiki.gg/wiki/Harvester",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "3,000",
+      "damage": [
+        "1,400-1,800 DPS Disintegration Beamer + 100/s(3s) Beam Burn",
+        "60 Tesla Ripper"
+      ],
+      "damage_types": [
+        "Laser",
+        "Arc"
+      ],
+      "min_difficulty": "Medium",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Massive autonomous tripod with an energy shield and a large laser weapon. Can also use arc weaponry in close quarters.",
+      "display_order": 7.0
+    },
+    {
+      "name": "Stingray",
+      "wiki": "https://helldivers.wiki.gg/wiki/Stingray",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "800",
+      "damage": [
+        "50 Plasma Destructor Impact / 125 Plasma Destructor Blast",
+        "100 Crash and Burn",
+        "300 Death Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": null,
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Flying Illuminate unit that deploys strafing runs against Helldivers, dealing massive damage over a large area.",
+      "display_order": 8.0
+    },
+    {
+      "name": "Warp Ship",
+      "wiki": "https://helldivers.wiki.gg/wiki/Warp_Ship",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "3,500",
+      "damage": [],
+      "damage_types": [
+        "None"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Transport aircraft used for deploying reinforcements for the Illuminate.",
+      "display_order": 9.0
+    },
+    {
+      "name": "Leviathan",
+      "wiki": "https://helldivers.wiki.gg/wiki/Leviathan",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "15,000",
+      "damage": [
+        "400 DPS Disintegration Culverin + 100 DPS(3s) Beam Burn",
+        "250 Plasma Bomb"
+      ],
+      "damage_types": [
+        "Laser",
+        "Explosion"
+      ],
+      "min_difficulty": "Impossible",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Tank-armored flying Illuminate unit, armed with large beam cannons and bomb bays.",
+      "display_order": 10.0
+    },
+    {
+      "name": "Illuminate Overship",
+      "wiki": "https://helldivers.wiki.gg/wiki/Illuminate_Overship",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Illuminate",
+      "subfaction_th": "กองกำลังหลัก",
+      "size_class": 3,
+      "size": "Massive",
+      "size_th": "มหึมา",
+      "health": "18,001",
+      "damage": [],
+      "damage_types": [],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Unarmed host ships, these units act as command centers for Illuminate ground forces.",
+      "display_order": 11.0
+    },
+    {
+      "name": "Veracitor",
+      "wiki": "https://helldivers.wiki.gg/wiki/Veracitor",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Appropriators",
+      "subfaction_th": "Appropriators",
+      "size_class": null,
+      "size": null,
+      "size_th": null,
+      "health": "3,000",
+      "damage": [
+        "75 Clawed Swipe",
+        "300 Sundering Slam",
+        "70 Shouldered Ram"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A piloted Illuminate war machine, with arm-like appendages.",
+      "display_order": 12.0
+    },
+    {
+      "name": "Gatekeeper",
+      "wiki": "https://helldivers.wiki.gg/wiki/Gatekeeper",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Appropriators",
+      "subfaction_th": "Appropriators",
+      "size_class": null,
+      "size": null,
+      "size_th": null,
+      "health": "2,500",
+      "damage": [
+        "110 Plasma Starcannon Charged Shot / 60 Plasma Starcannon Charged Blast",
+        "30 Plasma Starcannon Volley Shot / 20 Plasma Starcannon Volley Blast",
+        "35 Plasma Starcannon Bludgeon"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion",
+        "Melee"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "A piloted Illuminate war machine, with plasma guns and increased armor.",
+      "display_order": 13.0
+    },
+    {
+      "name": "Obtruder",
+      "wiki": "https://helldivers.wiki.gg/wiki/Obtruder",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Appropriators",
+      "subfaction_th": "Appropriators",
+      "size_class": null,
+      "size": null,
+      "size_th": null,
+      "health": "400",
+      "damage": [
+        "35 Plasma Torch",
+        "300 Crashing Impact",
+        "80 Death Explosion"
+      ],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Swarming drones that fire plasma projectiles and travel in groups. A variation of the watcher.",
+      "display_order": 14.0
+    },
+    {
+      "name": "Wretch",
+      "wiki": "https://helldivers.wiki.gg/wiki/Wretch",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Vote Snatchers",
+      "subfaction_th": "Vote Snatchers",
+      "size_class": 1,
+      "size": "Medium",
+      "size_th": "กลาง",
+      "health": "450",
+      "damage": [
+        "50 Blade Protrusion / 25 Swiping Hand"
+      ],
+      "damage_types": [
+        "Melee"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Former Super Earth citizens twisted beyond recognition into ravenous predators as violent as they are nimble.",
+      "display_order": 0.0
+    },
+    {
+      "name": "Crusher",
+      "wiki": "https://helldivers.wiki.gg/wiki/Crusher",
+      "faction": "Illuminate",
+      "faction_th": "อิลลูมิเนต (หมึก)",
+      "subfaction": "Vote Snatchers",
+      "subfaction_th": "Vote Snatchers",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "6,000",
+      "damage": [
+        "200 Heavy Cudgel / 50 Ground Quake",
+        "Cudgel + Ground Quake Explosion"
+      ],
+      "damage_types": [
+        "Melee",
+        "Explosion"
+      ],
+      "min_difficulty": "Challenging",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Ungainly flesh amalgamations that wield massive metallic clubs and are capable of regenerating tissue damage.",
+      "display_order": 16.0
+    },
+    {
+      "name": "Civilian",
+      "wiki": "https://helldivers.wiki.gg/wiki/Civilian",
+      "faction": "Super Earth",
+      "faction_th": "ซูเปอร์เอิร์ธ (ฝ่ายเดียวกัน)",
+      "subfaction": "Super Earth Federation",
+      "subfaction_th": "พลเมืองและทหาร",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "70",
+      "damage": [],
+      "damage_types": [],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Unarmed Super Earth citizens, mostly found running away from danger.",
+      "display_order": 1.0
+    },
+    {
+      "name": "SEAF Soldier",
+      "wiki": "https://helldivers.wiki.gg/wiki/SEAF_Soldier",
+      "faction": "Super Earth",
+      "faction_th": "ซูเปอร์เอิร์ธ (ฝ่ายเดียวกัน)",
+      "subfaction": "Super Earth Federation",
+      "subfaction_th": "พลเมืองและทหาร",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "150",
+      "damage": [],
+      "damage_types": [
+        "Ballistic",
+        "Explosion"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "Lightly-armored Super Earth ground troops, variously armed with assault rifles, SMGs, machine guns, expendable anti-tank launchers, and explosive grenades.",
+      "display_order": 2.0
+    },
+    {
+      "name": "Helldiver",
+      "wiki": "https://helldivers.wiki.gg/wiki/Helldiver",
+      "faction": "Super Earth",
+      "faction_th": "ซูเปอร์เอิร์ธ (ฝ่ายเดียวกัน)",
+      "subfaction": "Super Earth Federation",
+      "subfaction_th": "พลเมืองและทหาร",
+      "size_class": 0,
+      "size": "Small",
+      "size_th": "เล็ก",
+      "health": "125",
+      "damage": [],
+      "damage_types": [
+        "Everything"
+      ],
+      "min_difficulty": "Trivial",
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": 1.3,
+      "description": "Super Earth's elite fighting force, these units can be equipped with a variety of weapons, stratagems, and employ a variety of tactics.",
+      "display_order": 3.0
+    },
+    {
+      "name": "Ground All-Terrain Extraction Rig (GATER)",
+      "wiki": "https://helldivers.wiki.gg/wiki/Ground_All-Terrain_Extraction_Rig_%28GATER%29",
+      "faction": "Super Earth",
+      "faction_th": "ซูเปอร์เอิร์ธ (ฝ่ายเดียวกัน)",
+      "subfaction": "Super Earth",
+      "subfaction_th": "ยานพาหนะ",
+      "size_class": 2,
+      "size": "Large",
+      "size_th": "ใหญ่",
+      "health": "12,000",
+      "damage": [],
+      "damage_types": [],
+      "min_difficulty": null,
+      "min_difficulty_note": null,
+      "fire_multiplier": null,
+      "arc_multiplier": null,
+      "acid_multiplier": null,
+      "gas_multiplier": null,
+      "description": "An armed truck with mounted drill, designed for mobile substance extraction.",
+      "display_order": 0.0
+    }
+  ]
+}
